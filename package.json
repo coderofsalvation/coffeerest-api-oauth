@@ -1,7 +1,7 @@
 {
-  "name": "coffeerest-api-db",
+  "name": "coffeerest-api-oauth",
   "version": "0.1.0",
-  "description": "Unfancy rest apis, connect any db (redis/mysql/mongodb/etc) to coffeerest",
+  "description": "OAuth authenticate with 3rd party webapps",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,26 +9,20 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/coderofsalvation/coffeerest-api-db"
+    "url": "https://github.com/coderofsalvation/coffeerest-api-oauth"
   },
   "keywords": [
     "coffeerest",
     "coffeescript",
-    "rest",
-    "api",
-    "database",
-    "adapter",
-    "mysql",
-    "redis",
-    "mongodb",
-    "couchdb"
+    "oauth",
+    "user"
   ],
   "license": "ISC",
   "dependencies": {
-    "jugglingdb": "^1.0.2"
+    "grant": "^3.5.0"
   },
   "bugs": {
-    "url": "https://github.com/coderofsalvation/coffeerest-api-db/issues"
+    "url": "https://github.com/coderofsalvation/coffeerest-api-oauth/issues"
   },
-  "homepage": "https://github.com/coderofsalvation/coffeerest-api-db"
+  "homepage": "https://github.com/coderofsalvation/coffeerest-api-oauth"
 }
